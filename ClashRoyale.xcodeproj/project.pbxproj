@@ -14,6 +14,8 @@
 		93C8452E1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93C8452C1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld */; };
 		93C845301F9D07F10091FE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C8452F1F9D07F10091FE1B /* Assets.xcassets */; };
 		93C845331F9D07F10091FE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */; };
+		93E29ACA1F9D2DA70065D07A /* ColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E29AC91F9D2DA70065D07A /* ColeccionViewController.swift */; };
+		93E29ACC1F9D2E6F0065D07A /* SuperCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E29ACB1F9D2E6F0065D07A /* SuperCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		93C8452F1F9D07F10091FE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93C845321F9D07F10091FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93C845341F9D07F10091FE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E29AC91F9D2DA70065D07A /* ColeccionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColeccionViewController.swift; sourceTree = "<group>"; };
+		93E29ACB1F9D2E6F0065D07A /* SuperCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				93C845251F9D07F10091FE1B /* AppDelegate.swift */,
 				93C845271F9D07F10091FE1B /* ViewController.swift */,
+				93E29ACB1F9D2E6F0065D07A /* SuperCellTableViewCell.swift */,
 				93C845291F9D07F10091FE1B /* Main.storyboard */,
 				93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */,
 				93C8452F1F9D07F10091FE1B /* Assets.xcassets */,
 				93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */,
 				93C845341F9D07F10091FE1B /* Info.plist */,
 				93C8452C1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld */,
+				93E29AC91F9D2DA70065D07A /* ColeccionViewController.swift */,
 			);
 			path = ClashRoyale;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C845281F9D07F10091FE1B /* ViewController.swift in Sources */,
+				93E29ACC1F9D2E6F0065D07A /* SuperCellTableViewCell.swift in Sources */,
 				93C8452E1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld in Sources */,
 				93C845261F9D07F10091FE1B /* AppDelegate.swift in Sources */,
+				93E29ACA1F9D2DA70065D07A /* ColeccionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
